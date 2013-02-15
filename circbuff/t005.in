@@ -1,0 +1,18 @@
+10
+A 3
+Fee
+Fi
+Fo
+L
+A 1
+Fum
+L
+R 2
+L
+Q
+
+
+expected:
+
+Fo
+Fum

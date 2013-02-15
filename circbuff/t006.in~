@@ -1,0 +1,33 @@
+10
+A 1
+Inter
+L
+A 2
+View
+Street
+L
+A 10
+Fee
+Fo
+Fum
+Forum
+thread
+lang
+c++
+java
+c
+python
+L
+R 3
+L
+Q
+
+expected:
+
+Forum
+thread
+lang
+c++
+java
+c
+python

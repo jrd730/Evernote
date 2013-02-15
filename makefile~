@@ -1,0 +1,4 @@
+rangen: randoms.o
+	g++ -o -Wall -pedantic rangen randoms.cpp
+
+

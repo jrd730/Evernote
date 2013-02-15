@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+int main ()
+{
+	int N;
+	cin >> N;
+	
+	int nums[N];
+	long long products[N];
+	
+	int i, j;
+	for (i = 0; i < N; i++){
+		cin >> nums[i];
+	}
+	
+	for (i = 0; i < N; i++)
+	{
+		long long product = 1;
+		for (j = 0; j < N; j++)
+		{
+			if (j != i)
+			{
+				product *= (long long)j;
+			}
+		}
+		nums[i] = product;
+	}	
+	
+	for (i = 0; i < N; i++)
+	{
+		cout << products[i] << endl;
+	}
+	return 0;
+}
