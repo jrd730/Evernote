@@ -1,4 +1,4 @@
 Evernote
 ========
 
-solutions to Evernote's programming challeges
+solutions to Evernote's programming challenges
